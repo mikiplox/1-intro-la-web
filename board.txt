@@ -1,0 +1,21 @@
+inicializar un repo
+ debemos hacer
+git init 
+git add .
+git commit -m "mi mensaje"
+
+subir el repo? este fue el comando q hizo la magia
+tener un repo listo (comandos1)
+
+git remote add origen git remote add origin git@github.com:mikiplox/1-intro-la-web.git
+git brash -M
+git push -u origin main
+
+creae llave ssh
+ssh-keygen
+cat ~/.ssh/id_rsa.pub (debe cambia/id_cambio.pub)
+
+hacer commit y subirlos 
+git add  .
+git commit -m "mensaje"
+git push origin main(git push)
